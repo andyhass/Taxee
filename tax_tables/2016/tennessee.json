@@ -1,14 +1,50 @@
 {
     "single": {
-        "type": "TODO UNKNOWN!"
+        "specialtaxes": [],
+        "deductions": [],
+        "credits": [],
+        "annotations": [],
+        "income_tax_brackets": [
+            {
+                "bracket": 0,
+                "marginal_rate": 6
+            }
+        ]
     },
     "married": {
-        "type": "TODO UNKNOWN!"
+        "specialtaxes": [],
+        "deductions": [],
+        "credits": [],
+        "annotations": [],
+        "income_tax_brackets": [
+            {
+                "bracket": 0,
+                "marginal_rate": 6
+            }
+        ]
     },
     "married_separately": {
-        "type": "TODO UNKNOWN!"
+        "specialtaxes": [],
+        "deductions": [],
+        "credits": [],
+        "annotations": [],
+        "income_tax_brackets": [
+            {
+                "bracket": 0,
+                "marginal_rate": 6
+            }
+        ]
     },
     "head_of_household": {
-        "type": "TODO UNKNOWN!"
+        "specialtaxes": [],
+        "deductions": [],
+        "credits": [],
+        "annotations": [],
+        "income_tax_brackets": [
+            {
+                "bracket": 0,
+                "marginal_rate": 6
+            }
+        ]
     }
 }

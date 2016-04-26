@@ -4,7 +4,7 @@
         "deductions": [
             {
                 "deduction_name": "Standard Deduction (Single)",
-                "deduction_amount": 6100
+                "deduction_amount": 6300
             }
         ],
         "credits": [],
@@ -15,23 +15,23 @@
                 "marginal_rate": 0
             },
             {
-                "bracket": 2880,
+                "bracket": 2910,
                 "marginal_rate": 3
             },
             {
-                "bracket": 5760,
+                "bracket": 5820,
                 "marginal_rate": 4
             },
             {
-                "bracket": 8640,
+                "bracket": 8730,
                 "marginal_rate": 5
             },
             {
-                "bracket": 11520,
+                "bracket": 11640,
                 "marginal_rate": 6
             },
             {
-                "bracket": 14400,
+                "bracket": 14550,
                 "marginal_rate": 7
             }
         ]
@@ -41,7 +41,7 @@
         "deductions": [
             {
                 "deduction_name": "Standard Deduction (Married)",
-                "deduction_amount": 6100
+                "deduction_amount": 6300
             }
         ],
         "credits": [],
@@ -52,23 +52,23 @@
                 "marginal_rate": 0
             },
             {
-                "bracket": 2880,
+                "bracket": 2910,
                 "marginal_rate": 3
             },
             {
-                "bracket": 5760,
+                "bracket": 5820,
                 "marginal_rate": 4
             },
             {
-                "bracket": 8640,
+                "bracket": 8730,
                 "marginal_rate": 5
             },
             {
-                "bracket": 11520,
+                "bracket": 11640,
                 "marginal_rate": 6
             },
             {
-                "bracket": 14400,
+                "bracket": 14550,
                 "marginal_rate": 7
             }
         ]
@@ -78,7 +78,7 @@
         "deductions": [
             {
                 "deduction_name": "Standard Deduction (Married Separately)",
-                "deduction_amount": 6100
+                "deduction_amount": 6300
             }
         ],
         "credits": [],
@@ -89,23 +89,23 @@
                 "marginal_rate": 0
             },
             {
-                "bracket": 2880,
+                "bracket": 2910,
                 "marginal_rate": 3
             },
             {
-                "bracket": 5760,
+                "bracket": 5820,
                 "marginal_rate": 4
             },
             {
-                "bracket": 8640,
+                "bracket": 8730,
                 "marginal_rate": 5
             },
             {
-                "bracket": 11520,
+                "bracket": 11640,
                 "marginal_rate": 6
             },
             {
-                "bracket": 14400,
+                "bracket": 14550,
                 "marginal_rate": 7
             }
         ]
@@ -115,7 +115,7 @@
         "deductions": [
             {
                 "deduction_name": "Standard Deduction (Head Of Household)",
-                "deduction_amount": 6100
+                "deduction_amount": 6300
             }
         ],
         "credits": [],
@@ -126,23 +126,23 @@
                 "marginal_rate": 0
             },
             {
-                "bracket": 2880,
+                "bracket": 2910,
                 "marginal_rate": 3
             },
             {
-                "bracket": 5760,
+                "bracket": 5820,
                 "marginal_rate": 4
             },
             {
-                "bracket": 8640,
+                "bracket": 8730,
                 "marginal_rate": 5
             },
             {
-                "bracket": 11520,
+                "bracket": 11640,
                 "marginal_rate": 6
             },
             {
-                "bracket": 14400,
+                "bracket": 14550,
                 "marginal_rate": 7
             }
         ]

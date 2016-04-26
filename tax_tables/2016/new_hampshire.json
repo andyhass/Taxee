@@ -1,14 +1,14 @@
 {
     "single": {
-        "type": "TODO UNKNOWN!"
+        "type": "none"
     },
     "married": {
-        "type": "TODO UNKNOWN!"
+        "type": "none"
     },
     "married_separately": {
-        "type": "TODO UNKNOWN!"
+        "type": "none"
     },
     "head_of_household": {
-        "type": "TODO UNKNOWN!"
+        "type": "none"
     }
 }

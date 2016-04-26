@@ -4,7 +4,7 @@
         "deductions": [
             {
                 "deduction_name": "Standard Deduction (Single)",
-                "deduction_amount": 4945
+                "deduction_amount": 5009
             }
         ],
         "credits": [],
@@ -37,7 +37,7 @@
         "deductions": [
             {
                 "deduction_name": "Standard Deduction (Married)",
-                "deduction_amount": 9883
+                "deduction_amount": 10010
             }
         ],
         "credits": [],
@@ -70,7 +70,7 @@
         "deductions": [
             {
                 "deduction_name": "Standard Deduction (Married Separately)",
-                "deduction_amount": 4945
+                "deduction_amount": 5009
             }
         ],
         "credits": [],
@@ -103,7 +103,7 @@
         "deductions": [
             {
                 "deduction_name": "Standard Deduction (Head Of Household)",
-                "deduction_amount": 4945
+                "deduction_amount": 5009
             }
         ],
         "credits": [],
@@ -114,19 +114,19 @@
                 "marginal_rate": 2.59
             },
             {
-                "bracket": 10000,
+                "bracket": 20000,
                 "marginal_rate": 2.88
             },
             {
-                "bracket": 25000,
+                "bracket": 50000,
                 "marginal_rate": 3.36
             },
             {
-                "bracket": 50000,
+                "bracket": 100000,
                 "marginal_rate": 4.24
             },
             {
-                "bracket": 150000,
+                "bracket": 300000,
                 "marginal_rate": 4.54
             }
         ]
