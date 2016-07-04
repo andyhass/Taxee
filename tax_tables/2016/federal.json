@@ -5,30 +5,37 @@
                 "income_tax_brackets": [{
                     "bracket": 0,
                     "marginal_rate": 10,
+                    "marginal_capital_gain_rate": 0,
                     "amount": 0
                 }, {
                     "bracket": 9275,
                     "marginal_rate": 15,
+                    "marginal_capital_gain_rate": 0,
                     "amount": 927.5
                 }, {
                     "bracket": 37650,
                     "marginal_rate": 25,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 5183.75
                 }, {
                     "bracket": 91150,
                     "marginal_rate": 28,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 18558.75
                 }, {
                     "bracket": 190150,
                     "marginal_rate": 33,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 46278.75
                 }, {
                     "bracket": 413350,
                     "marginal_rate": 35,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 119943.75
                 }, {
                     "bracket": 415050,
                     "marginal_rate": 39.6,
+                    "marginal_capital_gain_rate": 20,
                     "amount": 120529.75
                 }],
                 "deductions": [{
@@ -40,30 +47,37 @@
                 "income_tax_brackets": [{
                     "bracket": 0,
                     "marginal_rate": 10,
+                    "marginal_capital_gain_rate": 0,
                     "amount": 0
                 }, {
                     "bracket": 18550,
                     "marginal_rate": 15,
+                    "marginal_capital_gain_rate": 0,
                     "amount": 1855
                 }, {
                     "bracket": 75300,
                     "marginal_rate": 25,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 10367.50
                 }, {
                     "bracket": 151900,
                     "marginal_rate": 28,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 29517.50
                 }, {
                     "bracket": 231450,
                     "marginal_rate": 33,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 51791.50
                 }, {
                     "bracket": 413350,
                     "marginal_rate": 35,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 111818.50
                 }, {
                     "bracket": 466950,
                     "marginal_rate": 39.6,
+                    "marginal_capital_gain_rate": 20,
                     "amount": 130578.50
                 }],
                 "deductions": [{
@@ -75,30 +89,38 @@
                 "income_tax_brackets": [{
                     "bracket": 0,
                     "marginal_rate": 10,
+                    "marginal_capital_gain_rate": 0,
                     "amount": 0
                 }, {
                     "bracket": 9275,
                     "marginal_rate": 15,
+                    "marginal_rate": 15,
+                    "marginal_capital_gain_rate": 0,
                     "amount": 927.50
                 }, {
                     "bracket": 37650,
                     "marginal_rate": 25,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 5183.75
                 }, {
                     "bracket": 75950,
                     "marginal_rate": 28,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 14758.75
                 }, {
                     "bracket": 115725,
                     "marginal_rate": 33,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 25895.75
                 }, {
                     "bracket": 206675,
                     "marginal_rate": 35,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 55909.25
                 }, {
                     "bracket": 233475,
                     "marginal_rate": 39.6,
+                    "marginal_capital_gain_rate": 20,
                     "amount": 65289.25
                 }],
                 "deductions": [{
@@ -110,30 +132,37 @@
                 "income_tax_brackets": [{
                     "bracket": 0,
                     "marginal_rate": 10,
+                    "marginal_capital_gain_rate": 0,
                     "amount": 0
                 }, {
                     "bracket": 13250,
                     "marginal_rate": 15,
+                    "marginal_capital_gain_rate": 0,
                     "amount": 1325
                 }, {
                     "bracket": 50400,
                     "marginal_rate": 25,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 6897.50
                 }, {
                     "bracket": 130150,
                     "marginal_rate": 28,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 26835
                 }, {
                     "bracket": 210800,
                     "marginal_rate": 33,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 49417
                 }, {
                     "bracket": 413350,
                     "marginal_rate": 35,
+                    "marginal_capital_gain_rate": 15,
                     "amount": 116258.50
                 }, {
                     "bracket": 441000,
                     "marginal_rate": 39.6,
+                    "marginal_capital_gain_rate": 20,
                     "amount": 125936
                 }],
                 "deductions": [{
