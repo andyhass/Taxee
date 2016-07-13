@@ -12,27 +12,27 @@
         "income_tax_brackets": [
             {
                 "bracket": 0,
-                "marginal_rate": 1
+                "marginal_rate": 0.9
             },
             {
                 "bracket": 4300,
-                "marginal_rate": 2.5
+                "marginal_rate": 2.4
             },
             {
                 "bracket": 8400,
-                "marginal_rate": 3.5
+                "marginal_rate": 3.4
             },
             {
                 "bracket": 12600,
-                "marginal_rate": 4.5
+                "marginal_rate": 4.4
             },
             {
                 "bracket": 21000,
-                "marginal_rate": 6
+                "marginal_rate": 5.9
             },
             {
-                "bracket": 35100,
-                "marginal_rate": 7
+                "bracket": 35300,
+                "marginal_rate": 6.9
             }
         ]
     },
@@ -49,27 +49,27 @@
         "income_tax_brackets": [
             {
                 "bracket": 0,
-                "marginal_rate": 1
+                "marginal_rate": 0.9
             },
             {
                 "bracket": 4300,
-                "marginal_rate": 2.5
+                "marginal_rate": 2.4
             },
             {
                 "bracket": 8400,
-                "marginal_rate": 3.5
+                "marginal_rate": 3.4
             },
             {
                 "bracket": 12600,
-                "marginal_rate": 4.5
+                "marginal_rate": 4.4
             },
             {
                 "bracket": 21000,
-                "marginal_rate": 6
+                "marginal_rate": 5.9
             },
             {
                 "bracket": 35100,
-                "marginal_rate": 7
+                "marginal_rate": 6.9
             }
         ]
     },
@@ -86,27 +86,27 @@
         "income_tax_brackets": [
             {
                 "bracket": 0,
-                "marginal_rate": 1
+                "marginal_rate": 0.9
             },
             {
                 "bracket": 4300,
-                "marginal_rate": 2.5
+                "marginal_rate": 2.4
             },
             {
                 "bracket": 8400,
-                "marginal_rate": 3.5
+                "marginal_rate": 3.4
             },
             {
                 "bracket": 12600,
-                "marginal_rate": 4.5
+                "marginal_rate": 4.4
             },
             {
                 "bracket": 21000,
-                "marginal_rate": 6
+                "marginal_rate": 5.9
             },
             {
                 "bracket": 35100,
-                "marginal_rate": 7
+                "marginal_rate": 6.9
             }
         ]
     },
@@ -123,27 +123,27 @@
         "income_tax_brackets": [
             {
                 "bracket": 0,
-                "marginal_rate": 1
+                "marginal_rate": 0.9
             },
             {
                 "bracket": 4300,
-                "marginal_rate": 2.5
+                "marginal_rate": 2.4
             },
             {
                 "bracket": 8400,
-                "marginal_rate": 3.5
+                "marginal_rate": 3.4
             },
             {
                 "bracket": 12600,
-                "marginal_rate": 4.5
+                "marginal_rate": 4.4
             },
             {
                 "bracket": 21000,
-                "marginal_rate": 6
+                "marginal_rate": 5.9
             },
             {
                 "bracket": 35100,
-                "marginal_rate": 7
+                "marginal_rate": 6.9
             }
         ]
     }
