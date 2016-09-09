@@ -1,5 +1,9 @@
 # Taxee
 
+THIS REPOSITORY IS DEPRECATED. 
+
+Taxee statistics are now maintained here: https://github.com/taxee/taxee-tax-statistics
+
 ----------
 
 #### Your friendly neighborhod income tax data and calculation API.
