@@ -8,8 +8,8 @@ require 'StateConstants.php';
 class StateTaxCalculatorModel extends TaxCalculatorModel {
 
     public function get_state_data($year, $state_abbr) {
-
         $state = StateConstants::abbreviation_to_full_name($state_abbr);
+        
         $response = array();
         if (!in_array($year, $this->supported_years)) {
             $response['success'] = false;
@@ -20,9 +20,10 @@ class StateTaxCalculatorModel extends TaxCalculatorModel {
         } else {
             $state = strtolower(StateConstants::abbreviation_to_full_name($state_abbr));
             $state = str_replace(" ", "_", $state);
+            
             $handle = file_get_contents(CDN_URL . "tax_tables/" . $year . "/" . $state . ".json", "r");
             $tax_table = json_decode($handle);
-
+            
             $response['success'] = true;
             $response['data'] = $tax_table;
         }
@@ -33,8 +34,10 @@ class StateTaxCalculatorModel extends TaxCalculatorModel {
     public function calculate($year, $pay_rate, $pay_periods, $filing_status, $state) {
         $income = $pay_rate * $pay_periods;
 
-        $data['state']['amount'] = $this->get_state_tax_amount($year, $income, $filing_status, $state);
+            
 
+        $data['state']['amount'] = $this->get_state_tax_amount($year, $income, $filing_status, $state);
+        
         $response['data'] = $data;
 
         return $response;
@@ -47,12 +50,13 @@ class StateTaxCalculatorModel extends TaxCalculatorModel {
     public function get_state_tax_amount($year, $income, $filing_status, $state_abbr) {
         $state_data = $this->get_state_data($year, $state_abbr);
         $target_table = $state_data['data']->$filing_status;
-
+        
         $deduction_amount = 0;
         if (isset($target_table->deductions)) {
             foreach ($target_table->deductions as $deduction) {
                 $deduction_amount+= $deduction->deduction_amount;
             }
+
         }
         $exemption_amount = 0;
         if (isset($target_table->exemptions)) {
@@ -60,6 +64,7 @@ class StateTaxCalculatorModel extends TaxCalculatorModel {
 
         }
         $adjusted_income = $income - $deduction_amount - $exemption_amount;
+
         if ($adjusted_income < 0) {
             $adjusted_income = 0;
         }
