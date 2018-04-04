@@ -1,11 +1,11 @@
 <?php
-
 	/*
 	* The hosted version of Taxee has all
 	* static assets hosted in a CDN.  Create a
 	* CDNBASE environment variable that holds
 	* the path to the CDN to utilize
-	*/
+	 */
+
 	function getCDNPath()
 	{
 		if (getenv("CDNBASE") != "")
@@ -30,7 +30,11 @@
 	$state_calculator = new StateTaxCalculatorModel();
 	$federal_calculator = new FederalTaxCalculatorModel();
 
-	$app = new \Slim\Slim();
+	$app = new \Slim\Slim(array(
+		'debug' => true,
+		'log.enabled' => true
+	));
+
 
 	// Parse the response and display it.
 	$app->hook('respond', function ($response) use ($app) {
@@ -58,14 +62,15 @@
 	});
 
 	$app->post('/v1/calculate/:year/', function ($year) use ($app, $state_calculator, $federal_calculator) {
+
 		$body	 		      = $app->request->getBody();
 		$data			      = json_decode($body, true);
 		$pay_periods    = $data['pay_periods'];
 		$filing_status  = $data['filing_status'];
 		$state          = $data['state'];
 		$pay_rate       = $data['pay_rate'];
-
-	    if (!isset($pay_rate) || !isset($filing_status))
+		
+		if (!isset($pay_rate) || !isset($filing_status))
 	    {
 	    	$response['success'] = false;
 	    	$response['reason'] = $data['pay_periods'];
